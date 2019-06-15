@@ -1,7 +1,7 @@
 # Coursera_Capstone
 Coursera Capstone Repository
 
-# Introduction
+# 1. Introduction
 ## Motivation
 Now a daysi it's becoming more frecuent to see people who cares about their health. A consecuence of this is the fact that places related with healthcare, like gyms, have much more attendance than past years. 
 
