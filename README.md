@@ -3,7 +3,7 @@ Coursera Capstone Repository
 
 # 1. Introduction
 ## 1.1 Background
-Now a daysi it's becoming more frecuent to see people who cares about their health. A consecuence of this is the fact that places related with healthcare, like gyms, have much more attendance than past years. 
+Now a days it is becoming more frecuent to see people who cares about their health. A consecuence of this is the fact that places related with healthcare, like gyms, have much more attendance than past years. 
 
 Even though there are plenty of good restaurants in any city, most of this places are fast food or, at least, no so healthy food. So, if you want to open a new food bussines, a healthy restaurant sounds like a good idea of bussiness.
 
