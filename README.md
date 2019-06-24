@@ -12,9 +12,10 @@ Opening a restaurant is a challenging project, so that in order to open such kin
 ## 1.2 Problem
 The first step will be to acquire useful data. The density of gyms in different parts of the city can be very valuable info, as the target of the restaurant is people who are likely to go to the this places. To use as location a region of the city where there is a high density of gyms can ensure a good visibility for the commerce.
 
-To know the density and kind of restaurants that are popular in the city can be a complmentary information which can also help to make good decissions about the location of the restaurant. A very dense place in terms of restaurants can make a hard competition for a new food place. Try to choose a location where the number of other food places is low should be a good option.
-
+Chicago is divided in a lot of small neigborhoods. To use one of those areas to choose a location can be too much restictive due to the size. Use instead a cluster of neighboorhoods can be a much better option, because if offers a bigger area to search for a place to locate the restaurant.
 
 # 2. Data description
 ## 2.1 Data sources
-The first place to look for data of the city is the "Chicago Data Portal", where there is plenty of data to work with. Inside this page one can find very usefull socioeconomic data.
+The first place to look for data of the city is the [Chicago Data Portal](https://data.cityofchicago.org), where there is plenty of data to work with. Inside this page one can find geospatial data of all the neigborhoods in the city, [link](https://data.cityofchicago.org/api/geospatial/bbvz-uum9?method=export&format=GeoJSON).
+
+
