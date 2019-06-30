@@ -21,7 +21,10 @@ The first place to look for data of the city is the [Chicago Data Portal](https:
 The [Foursquare](https://foursquare.com/developers/apps) API provides us of a source of information about any kind of venues in a lot of places around the world. A request to this service will give the location of the gyms around a given coordinates.
 
 ## 2.2 Data cleaning
-The data of the neighborhoods downloaded from the Chicago portal is in a json file. Inside this file there are several properties of each neighborhood. I stracted the "primary neighborhood" wich is the borough, the " secondary neighborhood" which is the proper neighborhood and the geographical info. This data is in the format of points which delimitates the area of the neighborhood. I used a function which calculates the centroid of any polygon to get the coordinates of the neighborhood.
+The data of the neighborhoods downloaded from the Chicago portal is in a json file. Inside this file there are several properties of each neighborhood. I stracted the "primary neighborhood" wich is the borough, the " secondary neighborhood", the proper name of the neighborhood, and the geographical info. This geographical data is in the format of points which delimitates the area of the neighborhood. I used a function to put into a pandas dataframe the borough, neighborhood, latitude and longitude of each element of the list in the json file. For the geographical info I used a function which calculates the centroid of any polygon to get the coordinates of the neighborhood.
 
+To get the locations of the gyms close to a given coordinates I used the Foursquare API. We can obtain a json file as the result of doing a request to Foursquare, which contains a list of all the venues that we asked for. Form this file we can extract for each venue it's name, latitude and longitude. I modified a function from the previous notebooks on the course, to get a function which can do a request and extract the required info and put it into a pandas data frame.
+
+Once I get the pandas data frames, using those tools, I am able to handle the data and merge it to get the final tables I need to get the results.
 
 
