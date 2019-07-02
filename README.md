@@ -55,7 +55,7 @@ Finally I repeated the process a third time. Using five clusters for the last re
 The final results shows the area of the city with the higher density of gyms. Based on this data, in the map we can see that the north part of the city is more appropriated to open a healthy food restaurant. 
 
 
-# 5. Conclussion
+# 5. Conclusion
 
 The objective of this work is to search for the best place in the city of Chicago to open a restaurant of healthy food. We work under the premise that the most interesting target to this kind of business is the people who cares for their health. This kind of people used to go frequently to sport places like gyms. This fact motivates us to search for the areas in the city where the density of gyms is high.
 
